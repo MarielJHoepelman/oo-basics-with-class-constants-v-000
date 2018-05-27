@@ -13,6 +13,7 @@ class Book
   end
 
   def genre=(genre)
+    binding.pry
     @genre = genre
     GENRES << genre
   end
